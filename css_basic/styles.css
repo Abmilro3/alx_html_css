@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(120deg, #f7f7f7, #00aaff); /* Blue gradient background */
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    overflow-y: auto;
+    border: 2px solid gray;
+  }
+  
+  aside {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  /* Additional styling */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333333; /* Dark text color */
+  }
+  
+  h1, h2, h3 {
+    color: #004466; /* Dark blue heading color */
+  }
+  
+  p {
+    color: #666666; /* Light gray paragraph color */
+  }
+  
+  a {
+    color: #ff5500; /* Orange link color */
+  }
+
+  /* Set text color for the paragraphs */
+p {
+    color: #333333;
+  }
+  
+  /* Add a border to the table */
+  table {
+    border: 1px solid #cccccc;
+  }
+  
+  /* Style the links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Add padding and margin to the sections */
+  article {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  aside {
+    padding: 20px;
+  }
+  /* Style the headings */
+.heading {
+    color: #ff6600;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; 
+}
+  
+  .subheading {
+    color: #555555;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+
+/* Style the logo */
+.logo img {
+    width: 50px; /* Adjust the width and height as needed */
+    height: 50px;
+  }
+
+  <article>
+  <h1 class="heading">Welcome to ALX: Empowering Future Programmers</h1>
+  <h2 class="subheading">Unlocking Your Potential in the World of Coding</h2>
+  <!-- Rest of the content -->
+</article>
+
+  .works_on_smartphone {
+    /* CSS styles for smartphones */
+    /* Adjust the layout, font sizes, or any other styles to optimize for smartphones */
+  }
